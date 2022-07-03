@@ -2,7 +2,7 @@ const internModel = require("../models/internModel");
 const evalidator = require("validator");
 const valid = require("../validation/validation")
 const mongoose = require('mongoose')
-const ObjectId = mongoose.Types.ObjectId;
+ const ObjectId = mongoose.Types.ObjectId;
 
 const intern = async function (req, res) {
   try {
